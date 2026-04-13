@@ -9,6 +9,10 @@ image: "/images/blog/scalable-apis-nodejs.svg"
 
 Scaling an API isn’t only about infrastructure — it starts with good contracts and predictable behavior. Here are patterns I regularly apply as a Software Engineer in Nigeria working on backend services.
 
+<Callout>
+A scalable API begins with a predictable contract and the ability to evolve safely.
+</Callout>
+
 ## Pagination, filtering, and sorting as a contract
 
 Make list endpoints consistent:
@@ -19,7 +23,7 @@ Make list endpoints consistent:
 
 ## Caching: start simple
 
-Caching works best when it is measurable:
+Caching works best when it is measurable — and it’s a key part of systems like [How Businesses in Nigeria Can Automate Operations Using AI and APIs](/blog/how-businesses-in-nigeria-can-automate-operations-using-ai-and-apis).
 
 - cache read-heavy endpoints
 - keep TTLs short at first
@@ -32,6 +36,16 @@ Move slow operations out of request/response:
 - queue long tasks
 - return job IDs
 - poll or push status updates
+
+<Callout>
+Background tasks and careful caching help keep API responses fast even when workloads spike.
+</Callout>
+
+## Related Reads
+
+- [Building Scalable Backend Systems in Nigeria](/blog/building-scalable-backend-systems-in-nigeria)
+- [Backend Engineering Best Practices (From a Backend Engineer in Lagos)](/blog/backend-engineer-lagos-best-practices)
+- [How Businesses in Nigeria Can Automate Operations Using AI and APIs](/blog/how-businesses-in-nigeria-can-automate-operations-using-ai-and-apis)
 
 ## Closing thoughts
 

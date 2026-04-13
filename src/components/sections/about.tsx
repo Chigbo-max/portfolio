@@ -18,10 +18,10 @@ const skills = [
   {
     category: "Backend",
     icon: <Server className="h-5 w-5" />,
-    items: ["Java","Node.js", "Python","TypeScript","JavaScript", "Spring Boot", "Express","Django","Flask", "GraphQL",  ],
+    items: ["Java", "Node.js", "Python", "TypeScript", "JavaScript", "Spring Boot", "Express", "Django", "Flask", "GraphQL",],
   },
   {
-    category: "Frontend",
+    category: "Frontend (supporting)",
     icon: <Layout className="h-5 w-5" />,
     items: ["HTML", "CSS", "React", "React Native", "Next.js", "Tailwind CSS"],
   },
@@ -38,7 +38,7 @@ const skills = [
   {
     category: "AI/Automation",
     icon: <Workflow className="h-5 w-5" />,
-    items: [ "n8n","Zapier", "Make", "LangChain", "APIs", "Automation Workflows"],
+    items: ["n8n", "Zapier", "Make(Integromat)", "LangChain", "APIs", "Automation Workflows"],
   },
 ]
 
@@ -63,11 +63,13 @@ export function About() {
               transition={{ delay: 0.1 }}
               className="max-w-[800px] text-muted-foreground md:text-xl leading-relaxed"
             >
-              I am a results-driven Backend Engineer with a strong foundation in full-stack
-              development. My passion lies in building scalable architectures and leveraging AI
-              automation to streamline complex processes. With extensive experience in Node.js,
-              Python, and modern frontend frameworks, I bridge the gap between robust server-side
-              logic and intuitive user experiences.
+              I am a results-driven Backend Engineer and AI Automation Specialist based in Lagos, Nigeria, with a strong foundation in full-stack development. I specialize in building scalable backend systems and designing intelligent automation workflows that reduce manual effort and improve operational efficiency.
+
+              My expertise lies in combining robust server-side engineering with AI-powered automation- leveraging tools like Java, Node.js, Python, and modern APIs to create systems that are reliable, efficient, and easy to scale.
+
+              I have hands-on experience designing and implementing automation solutions using tools such as n8n, Zapier, Make, and LangChain, enabling seamless integration between services and intelligent data processing. From API integrations to workflow orchestration, I focus on building solutions that deliver real business value.
+
+              I bridge the gap between backend engineering and automation, creating systems that not only work- but work smarter.
             </motion.p>
           </div>
 

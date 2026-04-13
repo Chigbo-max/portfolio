@@ -1,8 +1,12 @@
 import type { Metadata } from "next"
 import Image from "next/image"
-import Script from "next/script"
 import { notFound } from "next/navigation"
 import Link from "next/link"
+
+import { MDXComponents } from "../../../components/mdx-components"
+import { MDXRemote } from "next-mdx-remote/rsc"
+import { JsonLd } from "@/components/json-ld"
+
 
 import { compileMDX } from "next-mdx-remote/rsc"
 import remarkGfm from "remark-gfm"
@@ -71,6 +75,7 @@ export default async function BlogPostPage({
 
   const { content } = await compileMDX({
     source: post.content,
+    components: MDXComponents,
     options: {
       mdxOptions: {
         remarkPlugins: [remarkGfm],
@@ -99,9 +104,7 @@ export default async function BlogPostPage({
 
   return (
     <article className="py-16">
-      <Script id={`ld-blog-${post.slug}`} type="application/ld+json">
-        {JSON.stringify(blogPostingJsonLd)}
-      </Script>
+      <JsonLd id={`ld-blog-${post.slug}`} data={blogPostingJsonLd} />
 
       <div className="container space-y-10">
         <header className="space-y-4">
@@ -176,6 +179,7 @@ export default async function BlogPostPage({
           </Link>
         </footer>
       </div>
+
     </article>
   )
 }
