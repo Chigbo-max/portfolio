@@ -1,0 +1,50 @@
+---
+title: "Backend Engineering Best Practices (From a Backend Engineer in Lagos)"
+description: "A practical checklist for designing reliable services: validation, logging, observability, security, and scalable API patterns."
+date: "2026-03-22"
+tags: ["Backend Engineering", "Lagos", "Nigeria", "APIs", "Reliability"]
+author: "Chigbo Ezeokeke"
+image: "/images/blog/backend-engineering-lagos.svg"
+---
+
+Whether you’re building internal tools or customer-facing products, backend quality is what determines long-term stability. As a Backend Engineer in Lagos, I focus on patterns that keep systems maintainable under real-world load.
+
+## 1) Validate inputs at the edge
+
+Validate payloads at your API boundary and fail fast:
+
+- schemas (zod, Joi, JSON schema)
+- consistent error format
+- clear error codes for client teams
+
+## 2) Make observability a first-class feature
+
+Good backends answer these questions quickly:
+
+- What failed?
+- Where did it fail?
+- What was the input and the affected user?
+
+Implement structured logs, request IDs, and metrics from day one.
+
+## 3) Prefer idempotency for webhooks and retries
+
+Retries happen. Design for them:
+
+- idempotency keys for create operations
+- deduplication for webhook event IDs
+- safe “upsert” behavior where appropriate
+
+## 4) Security defaults for production
+
+Minimum baseline:
+
+- rate limiting
+- sanitization and escaping
+- secrets in env vars, never in code
+- principle of least privilege for API keys
+
+## Final thoughts
+
+If you’re hiring a Software Engineer in Nigeria (or specifically in Lagos), the best teams invest early in reliability and security — it saves months later.
+

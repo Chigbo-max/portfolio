@@ -1,0 +1,39 @@
+---
+title: "Building Scalable APIs with Node.js: Lessons for Software Engineers in Nigeria"
+description: "Design patterns for scalable APIs: pagination, caching, async jobs, and consistent contracts — with examples relevant to Nigeria-based teams."
+date: "2026-01-30"
+tags: ["Backend Engineering", "Node.js", "Nigeria", "Scalability", "APIs"]
+author: "Chigbo Ezeokeke"
+image: "/images/blog/scalable-apis-nodejs.svg"
+---
+
+Scaling an API isn’t only about infrastructure — it starts with good contracts and predictable behavior. Here are patterns I regularly apply as a Software Engineer in Nigeria working on backend services.
+
+## Pagination, filtering, and sorting as a contract
+
+Make list endpoints consistent:
+
+- `limit`, `cursor` (or `page`)
+- stable sort keys
+- explicit filters
+
+## Caching: start simple
+
+Caching works best when it is measurable:
+
+- cache read-heavy endpoints
+- keep TTLs short at first
+- invalidate carefully
+
+## Async jobs for heavy work
+
+Move slow operations out of request/response:
+
+- queue long tasks
+- return job IDs
+- poll or push status updates
+
+## Closing thoughts
+
+If you’re building products for customers in Lagos or across Nigeria, the real win is predictable performance and reliability — especially during traffic spikes.
+

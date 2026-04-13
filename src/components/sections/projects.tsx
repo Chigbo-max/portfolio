@@ -19,11 +19,11 @@ const projects = [
     image: "https://drive.google.com/uc?export=view&id=185bO7OpdIPDIK4bQ4gvQadaKOyxdmr-l",
   },
   {
-    title: "E-Commerce Microservices",
-    description: "Designed and implemented a scalable microservices architecture using Spring Boot and Docker, handling high-volume transactions and inventory management.",
-    techStack: ["Spring Boot", "Docker", "PostgreSQL", "Redis"],
-    liveLink: "#",
-    githubLink: "#",
+    title: "EaziPurse - Digital Wallet Application",
+    description: "Designed and implemented a scalable full-stack wallet system with secure JWT authentication, role-based access, real-time transaction workflows, and ontainerized deployment with Docker and PostgreSQL database management.",
+    techStack: ["Python","Django", "Docker", "PostgreSQL", "ReactJs","RTKQuery"],
+    liveLink: "https://eazipurse-ng.onrender.com/",
+    githubLink: "https://github.com/Chigbo-max/EaziPurse",
     image: "https://drive.google.com/uc?export=view&id=185bO7OpdIPDIK4bQ4gvQadaKOyxdmr-l",
   },
   {

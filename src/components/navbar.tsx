@@ -2,6 +2,7 @@
 
 import * as React from "react"
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { motion, useScroll, useSpring } from "framer-motion"
 import { Menu, X } from "lucide-react"
 
@@ -10,22 +11,27 @@ import { ModeToggle } from "@/components/mode-toggle"
 import { cn } from "@/lib/utils"
 
 const navItems = [
-  { name: "Home", href: "#home" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
-  { name: "Experience", href: "#experience" },
-  { name: "Contact", href: "#contact" },
+  { name: "Home", href: "/" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Blog", href: "/blog" },
+  { name: "Contact", href: "/#contact" },
 ]
 
 export function Navbar() {
   const [isOpen, setIsOpen] = React.useState(false)
+  const pathname = usePathname()
   const { scrollYProgress } = useScroll()
   const scaleX = useSpring(scrollYProgress, {
     stiffness: 100,
     damping: 30,
     restDelta: 0.001,
   })
+
+  const isActive = (href: string) => {
+    if (href === "/") return pathname === "/"
+    if (href === "/blog") return pathname === "/blog" || pathname.startsWith("/blog/")
+    return false
+  }
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -44,7 +50,10 @@ export function Navbar() {
             <Link
               key={item.href}
               href={item.href}
-              className="transition-colors hover:text-primary"
+              className={cn(
+                "transition-colors hover:text-primary",
+                isActive(item.href) && "text-primary"
+              )}
             >
               {item.name}
             </Link>
@@ -80,7 +89,10 @@ export function Navbar() {
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="text-sm font-medium transition-colors hover:text-primary"
+                className={cn(
+                  "text-sm font-medium transition-colors hover:text-primary",
+                  isActive(item.href) && "text-primary"
+                )}
               >
                 {item.name}
               </Link>
