@@ -16,7 +16,7 @@ const projects = [
     techStack: ["n8n", "OpenAI", "Google API", "Node.js"],
     liveLink: "#",
     githubLink: "#",
-    image: "https://drive.google.com/uc?export=view&id=185bO7OpdIPDIK4bQ4gvQadaKOyxdmr-l",
+    image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1775830974/DSC00782_r1wi5r.jpg",
   },
   {
     title: "EaziPurse - Digital Wallet Application",
@@ -24,7 +24,7 @@ const projects = [
     techStack: ["Python","Django", "Docker", "PostgreSQL", "ReactJs","RTKQuery"],
     liveLink: "https://eazipurse-ng.onrender.com/",
     githubLink: "https://github.com/Chigbo-max/EaziPurse",
-    image: "https://drive.google.com/uc?export=view&id=185bO7OpdIPDIK4bQ4gvQadaKOyxdmr-l",
+    image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1776257837/eazipurse_dash_gyp91f.png",
   },
   {
     title: "Real-time Chat Application",
@@ -82,7 +82,7 @@ export function Projects() {
                 <Card className="flex h-full flex-col overflow-hidden border bg-card transition-all hover:shadow-xl hover:-translate-y-1">
                   <div className="relative aspect-video w-full overflow-hidden">
                     <Image
-                      src="https://res.cloudinary.com/duprqhkbv/image/upload/v1775830974/DSC00782_r1wi5r.jpg"
+                      src={project.image}
                       alt={project.title}
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"

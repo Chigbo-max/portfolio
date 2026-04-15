@@ -61,7 +61,7 @@ export function About() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.1 }}
-              className="max-w-[800px] text-muted-foreground md:text-xl leading-relaxed"
+              className="max-w-[1200px] text-muted-foreground md:text-xl leading-relaxed"
             >
               I am a results-driven Backend Engineer and AI Automation Specialist based in Lagos, Nigeria, with a strong foundation in full-stack development. I specialize in building scalable backend systems and designing intelligent automation workflows that reduce manual effort and improve operational efficiency.
 
