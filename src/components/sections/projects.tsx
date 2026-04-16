@@ -29,10 +29,10 @@ const projects = [
   {
     title: "Real-time Chat Application",
     description: "Developed a full-stack real-time communication platform using React and Socket.io with end-to-end encryption.",
-    techStack: ["React", "Node.js", "Socket.io", "MongoDB"],
-    liveLink: "#",
-    githubLink: "#",
-    image: "https://drive.google.com/uc?export=view&id=185bO7OpdIPDIK4bQ4gvQadaKOyxdmr-l",
+    techStack: ["Node.js", "GraphQl", "MongoDB", "React", ],
+    liveLink: "https://our-chat-uyim.onrender.com/",
+    githubLink: "https://github.com/Chigbo-max/chat-app/",
+    image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1776346736/daniel-korpai-r73OFSry5AI-unsplash_s1gln9.jpg",
   },
   {
     title: "FinTech Dashboard",
@@ -41,6 +41,7 @@ const projects = [
     liveLink: "#",
     githubLink: "#",
     image: "https://drive.google.com/uc?export=view&id=185bO7OpdIPDIK4bQ4gvQadaKOyxdmr-l",
+    
   },
 ]
 
@@ -87,6 +88,7 @@ export function Projects() {
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, (max-width: 1280px) 33vw, 25vw"
                       className="object-cover transition-transform duration-500 hover:scale-105"
+                      priority
                     />
                   </div>
                   <CardHeader className="flex-1 space-y-2">
