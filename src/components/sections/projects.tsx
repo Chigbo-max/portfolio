@@ -11,11 +11,11 @@ import { Button } from "@/components/ui/button"
 
 const projects = [
   {
-    title: "AI Automation Workflow",
-    description: "Built a sophisticated n8n workflow that integrates OpenAI, Google Workspace, and Telegram for automated content generation and reporting.",
-    techStack: ["n8n", "OpenAI", "Google API", "Node.js"],
-    liveLink: "#",
-    githubLink: "#",
+    title: "AI Voice Receptionist For a Restaurant",
+    description: "Built a sophisticated n8n workflow that integrates ElevenLabs, Gemini and Google Workspace for automated content generation and reporting.",
+    techStack: ["n8n", "ElevenLabs", "Gemini", "Google API"],
+    liveLink: "https://drive.google.com/file/d/1YASMbaOWXAyMw4gae8gqrQpuzY721C52/view?usp=drive_link",
+    githubLink: "https://github.com/Chigbo-max/ai-voice-receptionist.git",
     image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1775830974/DSC00782_r1wi5r.jpg",
   },
   {
@@ -33,15 +33,6 @@ const projects = [
     liveLink: "https://our-chat-uyim.onrender.com/",
     githubLink: "https://github.com/Chigbo-max/chat-app/",
     image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1776346736/daniel-korpai-r73OFSry5AI-unsplash_s1gln9.jpg",
-  },
-  {
-    title: "FinTech Dashboard",
-    description: "Created a comprehensive financial analytics dashboard with complex data visualization and real-time stock tracking.",
-    techStack: ["Next.js", "Tailwind CSS", "Flask", "PostgreSQL"],
-    liveLink: "#",
-    githubLink: "#",
-    image: "https://drive.google.com/uc?export=view&id=185bO7OpdIPDIK4bQ4gvQadaKOyxdmr-l",
-    
   },
 ]
 
