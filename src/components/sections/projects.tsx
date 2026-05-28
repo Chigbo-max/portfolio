@@ -37,7 +37,7 @@ const projects = [
     "HTTP API Integration"
   ],
   liveLink:
-    "https://drive.google.com/file/d/1DorrBW6bCx4j-5lAwUhdsXjiXcBP26bQ/view?usp=drive_link",
+    "https://drive.google.com/file/d/1qBy_tbw1FZNUeEuNJHXtKRkJuM542e-u/view?usp=sharing",
   githubLink:
     "https://github.com/Chigbo-max/ai-telegram-real-estate-chatbot.git",
   image:
