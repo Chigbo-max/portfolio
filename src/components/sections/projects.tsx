@@ -19,6 +19,31 @@ const projects = [
     image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1779953338/Build_an_AI_Receptionist_for_Your_Business_24_7_Customer_Support_nfoc9o.jpg",
   },
   {
+  title: "AI Telegram Chatbot for Real Estate Company",
+  description:
+    "Built an advanced AI-powered real estate assistant using n8n, Telegram, Supabase Vector Store, Cohere embeddings, and Google Workspace integrations. Developed a RAG-based chatbot capable of handling property inquiries, lead qualification, appointment scheduling, agent assignment, and automated customer engagement with memory-aware conversations and vector search capabilities.",
+  techStack: [
+    "n8n",
+    "Telegram API",
+    "Supabase",
+    "Cohere Embeddings",
+    "Google Calendar API",
+    "Google Sheets API",
+    "Google Drive API",
+    "Vector Database",
+    "RAG",
+    "AI Agents",
+    "LangChain",
+    "HTTP API Integration"
+  ],
+  liveLink:
+    "https://drive.google.com/file/d/1DorrBW6bCx4j-5lAwUhdsXjiXcBP26bQ/view?usp=drive_link",
+  githubLink:
+    "https://github.com/Chigbo-max/ai-telegram-real-estate-chatbot.git",
+  image:
+    "https://res.cloudinary.com/duprqhkbv/image/upload/v1779975398/Boost_Your_Real_Estate_Business_with_AI_Chatbots_zmkyj2.jpg",
+},
+  {
     title: "EaziPurse - Digital Wallet Application",
     description: "Designed and implemented a scalable full-stack wallet system with secure JWT authentication, role-based access, real-time transaction workflows, and ontainerized deployment with Docker and PostgreSQL database management.",
     techStack: ["Python","Django", "Docker", "PostgreSQL", "ReactJs","RTKQuery"],

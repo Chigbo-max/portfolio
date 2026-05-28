@@ -60,7 +60,7 @@ export function Hero() {
                 <Link href="#contact">Contact Me</Link>
               </Button>
               <Button asChild variant="ghost" size="lg">
-                <Link href="/Chigbo Ezeokeke (5).pdf" target="_blank" download>
+                <Link href="/Chigbo Ezeokeke (2).pdf" target="_blank" download>
                   <FileText className="mr-2 h-4 w-4" /> Download Resume
                 </Link>
               </Button>
