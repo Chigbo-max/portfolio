@@ -16,7 +16,7 @@ const projects = [
     techStack: ["n8n", "ElevenLabs", "Gemini", "Google API"],
     liveLink: "https://drive.google.com/file/d/1YASMbaOWXAyMw4gae8gqrQpuzY721C52/view?usp=drive_link",
     githubLink: "https://github.com/Chigbo-max/ai-voice-receptionist.git",
-    image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1775830974/DSC00782_r1wi5r.jpg",
+    image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1779953338/Build_an_AI_Receptionist_for_Your_Business_24_7_Customer_Support_nfoc9o.jpg",
   },
   {
     title: "EaziPurse - Digital Wallet Application",
@@ -32,7 +32,7 @@ const projects = [
     techStack: ["Node.js", "GraphQl", "MongoDB", "React", ],
     liveLink: "https://our-chat-uyim.onrender.com/",
     githubLink: "https://github.com/Chigbo-max/chat-app/",
-    image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1776346736/daniel-korpai-r73OFSry5AI-unsplash_s1gln9.jpg",
+    image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1779953353/Chat_Logo_Png_da0axp.jpg",
   },
 ]
 

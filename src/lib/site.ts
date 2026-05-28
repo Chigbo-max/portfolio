@@ -3,10 +3,10 @@ export const siteConfig = {
   jobTitle: "Software Engineer & AI Automation Specialist",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000",
   image:
-    "https://res.cloudinary.com/duprqhkbv/image/upload/v1775830974/DSC00782_r1wi5r.jpg",
+    "https://res.cloudinary.com/duprqhkbv/image/upload/v1775832265/profileimg_vixr8l.png?q=80&w=400&h=250&auto=format&fit=crop",
   sameAs: {
-    github: "https://github.com/your-github",
-    linkedin: "https://linkedin.com/in/your-linkedin",
+    github: "https://github.com/Chigbo-max",
+    linkedin: "https://www.linkedin.com/in/chigbo-ezeokeke-0bb4962a0/",
   },
   location: {
     city: "Lagos",
