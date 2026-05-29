@@ -13,7 +13,7 @@ const projects = [
   {
     title: "AI Voice Receptionist For a Restaurant",
     description: "Built a sophisticated n8n workflow that integrates ElevenLabs, Gemini and Google Workspace for automated content generation and reporting.",
-    techStack: ["n8n", "ElevenLabs", "Gemini", "Google API"],
+    techStack: ["n8n", "ElevenLabs", "Google API", "Vector Database","RAG", "AI Agents","LangChain"],
     liveLink: "https://drive.google.com/file/d/1YASMbaOWXAyMw4gae8gqrQpuzY721C52/view?usp=drive_link",
     githubLink: "https://github.com/Chigbo-max/ai-voice-receptionist.git",
     image: "https://res.cloudinary.com/duprqhkbv/image/upload/v1779953338/Build_an_AI_Receptionist_for_Your_Business_24_7_Customer_Support_nfoc9o.jpg",
